@@ -12,7 +12,7 @@ This is a child of the [PHP-based moth web application](https://github.com/andre
 ```console
 $ git clone https://github.com/andresriancho/php-moth.git
 $ cd php-moth
-$ php -S localhost:8001 -t . -c conf/default.ini
+$ php -S localhost:8001 -t . -c conf/default.ini router.php
 ```
 
 Then browse to http://127.0.0.1:8001/ .
