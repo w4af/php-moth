@@ -10,12 +10,12 @@ This is a child of the [PHP-based moth web application](https://github.com/andre
 ## Usage
 
 ```console
-$ git clone https://github.com/andresriancho/php-moth.git
+$ git clone git@github.com:andresriancho/php-moth.git
 $ cd php-moth
-$ php -S localhost:8001 -t . -c conf/default.ini router.php
+$ docker-compose --project-name php-moth up -d
 ```
 
-Then browse to http://127.0.0.1:8001/ .
+Then browse to [http://127.0.0.1:9009/](http://127.0.0.1:9009/) .
 
 ## Sister repository
 
