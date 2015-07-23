@@ -29,7 +29,7 @@ test:
     - sleep 10
 
     # Smoke test
-    - curl http://localhost:8899/audit/rfi/index.html | grep "Remote code execution"
+    - curl http://localhost:9009/audit/rfi/index.html | grep "Remote code execution"
 
 
 deployment:
