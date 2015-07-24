@@ -7,5 +7,6 @@ COPY . /var/www/html/
 COPY conf/default.ini /usr/local/etc/php/php.ini
 
 # Configure permissions for file upload
-RUN chown www-data: -R /var/www/html/audit/file_upload/trivial/uploads/
+RUN chown www-data: -R /var/www/html/audit/file_upload/
+
 
